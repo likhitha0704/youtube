@@ -13,3 +13,34 @@
     height: 35px;
     display: flex;
 }
+#video2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items */
+    gap: 20px; /* space between images */
+  }
+  
+  .image-gallery img {
+    flex: 1 0 30%; /* each image takes up 30% of the row */
+    /* max-width: 30%;  */
+    /* height: auto; */
+  }
+  .articleClass{
+    display: flex;
+    padding:10px  10px;
+  }
+  .article1{
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 50px;
+    margin: 10px 10px;
+  }
+  .article2{
+    padding: 56px 10px;
+    border: 2px solid;
+    border-radius: 50px;
+  }

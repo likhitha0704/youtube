@@ -7,14 +7,14 @@ const VideoContainer = ({state,vid,play}) => {
 
 
   return (
-    <div>
-  <aside>
-                             <article>
+    <div >
+  <aside  class='articleClass'>
+                             <article >
                                  <Player vid={vid}></Player>
                              </article>
 
                              {/* ----------------------------------------------------------- */}
-                          <article>
+                          <article class='article2'>
                                  {
                                     state.map((data)=>{
                         return<VideoItems play={play}  key={data.id}  data={data} id='video2'></VideoItems>
