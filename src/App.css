@@ -1,0 +1,15 @@
+#nav2{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#input1{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 25px;
+    width: 500px;
+}
+#div2{
+    height: 35px;
+    display: flex;
+}
